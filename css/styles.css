@@ -20,9 +20,24 @@ body {
     color: var(--slate-color);
     background-color: var(--white-color);
 }
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 .page-title {
     font-size: 56px;
-    font-weight: 500;
+   /* font-weight: 700;*/
     line-height: 1.07;
     letter-spacing: 1.12px;
     text-align: center;
@@ -120,9 +135,9 @@ body {
     background-color: var(--ocean-color);
 }
 
-.section-two .section-title {
+/*.section-two .section-title {
     color: var(--white-color);
-}
+}*/
 
 .section-two .title {
     line-height: 1.2;
@@ -161,9 +176,9 @@ body {
 
 /*portfolio page*/
 
-.portfolio-title {
+/*.portfolio-title {
     color: var(--white-color);
-}
+}*/
 
 .button-portfolio {
     color: var(--iris-color);
