@@ -132,8 +132,6 @@ img {
     gap: 40px;
     justify-content: space-between;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .page-nav {
@@ -141,6 +139,7 @@ img {
     align-items: center;
     gap: 40px;
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .header-contacts {
