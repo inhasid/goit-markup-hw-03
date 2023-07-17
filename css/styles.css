@@ -34,6 +34,7 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+   /* display: flex;*/
 }
 
 .link {
@@ -118,20 +119,25 @@ img {
     margin-bottom: 24px;
 }
 
+.list-header {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
 .page-nav {
     display: flex;
     align-items: flex-start;
     gap: 40px;
-    margin-top: 24px;
-    margin-bottom: 24px;
     margin-right: 76px;
 }
 
 .header-contacts {
     display: flex;
     gap: 40px;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
 
 .link-logo,
@@ -313,16 +319,33 @@ img {
 
 /*-------------------------------------------portfolio page----------------------------------------------------*/
 
+.section-portfolio {
+    padding: 96px 0 72px 0;
+}
 
+/*.section-portfolio .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24;*/
+}
 .button-portfolio {
     color: var(--iris-color);
     background-color: var(--cloud-color);
+    padding: 12px 24px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24;
 }
 
 .button-portfolio:hover,
-.button-portfolio:focus {
+.button-portfolio:aktive,
+.button-portfolio:focus, {
     color: var(--white-color);
     background-color: var(--ocean-color);
+    border: 1px solid var(--cloud-color);
 }
 
 .section-portfolio .title {
