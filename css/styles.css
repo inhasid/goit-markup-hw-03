@@ -114,6 +114,8 @@ img {
     justify-content: space-between;
     align-items: center;
     gap: 332;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .page-header{
@@ -122,8 +124,7 @@ img {
 }
 
 .link-logo {
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-right: 76px;
 }
 
 .list-header {
@@ -131,13 +132,11 @@ img {
     gap: 40px;
     justify-content: space-between;
     align-items: center;
-    margin-top: 24px;
-    margin-bottom: 24px;
 }
 
 .page-nav {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 40px;
     margin-right: 76px;
 }
@@ -198,7 +197,7 @@ img {
 }
 
 .container .page-title {
-    width: 496px;
+    max-width: 496px;
     padding-left: auto;
     padding-right: auto;
     margin-right: auto;
@@ -207,8 +206,9 @@ img {
 
 .section-one .button {
     color: var(--white-color);
-    /*display: flex;
-    flex-direction: column;*/
+    min-width: 169px;
+    height: 56px;
+    border: none;
     display: block;
     background-color: var(--iris-color);
     border-radius: 4px;
@@ -246,6 +246,7 @@ img {
 
 .section-two .title {
     line-height: 1.2;
+    margin-bottom: 8px;
 }
 
 /*-------------------------------------section three pade index-----------------------------------------*/
@@ -253,6 +254,9 @@ img {
     padding-bottom: 120px;
 }
 
+.section-three .section-title {
+    margin-bottom: 72px;
+}
 
 .list-section-three {
     display: flex;
@@ -290,16 +294,17 @@ img {
 
 .section-four .title {
     line-height: 1.2;
-    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
-.section-four .section-text {
-    margin-bottom: 32px;
-}
-
-.section-four  .title,
-.section-four  .section-text {
+.container-employee {
+    padding: 32px 16px;
     text-align: center;
+}
+
+/*.section-four  .title,
+.section-four  .section-text {
+    text-align: center;*/
 }
 
 /*--------------------------------------------footer-------------------------------------------------*/
@@ -307,12 +312,14 @@ img {
 .footer {
     background-color: var(--navy-blue);
     color: var(--cloud-color);
-    padding-top: 101.5px;
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 
 .link-logo-footer {
     line-height: 1.17;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .span-logo-footer {
