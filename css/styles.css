@@ -19,6 +19,13 @@ body {
     letter-spacing: 0.02em;
     color: var(--slate-color);
     background-color: var(--white-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
 }
 
 h1,
@@ -320,7 +327,7 @@ img {
 /*-------------------------------------------portfolio page----------------------------------------------------*/
 
 .section-portfolio {
-    padding: 96px 0 72px 0;
+    padding: 96px 0 120px 0;
 }
 
 .button-list {
@@ -339,10 +346,11 @@ img {
 }
 
 .button-portfolio:hover,
-.button-portfolio:aktive,
+.button-portfolio:active,
 .button-portfolio:focus {
     color: var(--white-color);
     background-color: var(--ocean-color);
+    border: 1px solid transparent;
 }
 
 .list-portfolio {
@@ -369,3 +377,4 @@ img {
 .text-porfolio {
     margin: 8px 16px 32px 16px;
 }
+
