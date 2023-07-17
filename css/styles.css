@@ -238,15 +238,15 @@ img {
 
 .section-four {
     background-color: var(--cloud-color);
-    /*padding: 120px auto 120px;*/
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .list-section-four {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin: 72px auto 120px;
-    padding: 0;
+    margin: 72px auto 0;
 }
 
 .item-section-four {
@@ -257,17 +257,16 @@ img {
     align-items: flex-start;
     justify-content: center;
     align-items: center;
-    gap: 32px;
-    padding: 32px auto 32px;
-}
-
-/*.item-section-four:last-child {
     gap: 8px;
-}*/
+}
 
 .section-four .title {
     line-height: 1.2;
-    /*margin: 120px auto 72px;*/
+    margin-top: 32px;
+}
+
+.section-four .section-text {
+    margin-bottom: 32px;
 }
 
 .section-four  .title,
