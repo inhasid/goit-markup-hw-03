@@ -125,6 +125,8 @@ img {
 
 .link-logo {
     margin-right: 76px;
+    padding: 24px 0;
+    display: block;
 }
 
 .list-header {
@@ -132,7 +134,6 @@ img {
     gap: 40px;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0;
 }
 
 .page-nav {
